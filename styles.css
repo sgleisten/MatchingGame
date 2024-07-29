@@ -1,0 +1,60 @@
+body {
+    font-family: Poppin, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    text-align: center;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+.logo {
+    height: 100px;
+    margin-bottom: 10px;
+    background-color: #ccc;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.game {
+    display: flex;
+    justify-content: space-between;
+}
+
+.words, .definitions {
+    width: 45%;
+}
+
+.word, .definition {
+    padding: 10px;
+    margin: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+#score {
+    font-size: 18px;
+}
+
+#message {
+    font-size: 16px;
+    color: red;
+}
